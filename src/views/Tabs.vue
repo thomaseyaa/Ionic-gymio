@@ -2,12 +2,12 @@
   <ion-page>
     <ion-tabs>
       <ion-tab-bar slot="bottom" color="danger">
-        <ion-tab-button tab="tab1" href="/tabs/tab1">
+        <ion-tab-button tab="home" href="/tabs/home">
           <ion-icon :icon="homeOutline" />
           <ion-label>Accueil</ion-label>
         </ion-tab-button>
           
-        <ion-tab-button tab="tab2" href="/tabs/tab2">
+        <ion-tab-button tab="reservation" href="/tabs/reservation">
           <ion-icon :icon="calendarOutline" />
           <ion-label>Réservation</ion-label>
         </ion-tab-button>

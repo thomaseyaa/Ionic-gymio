@@ -65,7 +65,7 @@ export default  {
   },
   methods: {
     toReserve(){
-      fetch(`http://gym-affluences.herokuapp.com/api/reservation`,{
+      fetch(`https://gym-affluences.herokuapp.com/api/reservation`,{
         method: 'POST',
         headers: {
           'Accept': 'application/json',

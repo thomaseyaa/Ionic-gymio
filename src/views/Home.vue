@@ -25,7 +25,7 @@
         </ion-text>
 
         <ion-text>
-          <ion-router-link color="danger" href="/tabs/tab2">Resérver</ion-router-link>
+          <ion-router-link color="danger" href="/tabs/reservation">Resérver</ion-router-link>
         </ion-text>
       </div>
     </ion-content>
@@ -56,7 +56,7 @@ export default  {
   },
   methods: {
     showInfo(){
-      fetch(`http://gym-affluences.herokuapp.com/api/infos`)
+      fetch(`https://gym-affluences.herokuapp.com/api/infos`)
           .then(response => response.json())
           .then(data => {
             console.log(data);
